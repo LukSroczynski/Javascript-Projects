@@ -1,9 +1,14 @@
+let data;
 
-
-function setup() {
+function preload() {
+  data = loadJSON("data/birds.json");
 
 }
 
-function draw() {
+function setup() {
+  noCanvas();
 
+  let bird = data.birds[1].members[2];
+
+  createP(bird);
 }
