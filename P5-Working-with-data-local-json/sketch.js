@@ -1,7 +1,7 @@
 let data;
 
 function preload() {
-  data = loadJSON("../data/birds.json");
+  data = loadJSON("../data/json-files/birds.json");
 }
 
 function setup() {

@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7812637-5645-40a1-8cfb-88265b0b13f1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Working-with-data-load-from-url-json/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Working-with-data-load-from-url-json/sketch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Working-with-data-load-from-url-with-API-KEY-json/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Working-with-data-load-from-url-with-API-KEY-json/sketch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Working-with-data-local-json/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Working-with-data-local-json/sketch.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/birds.json" afterPath="$PROJECT_DIR$/data/json-files/birds.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/flower.json" afterPath="$PROJECT_DIR$/data/json-files/flower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/libraries/p5.dom.js" afterPath="$PROJECT_DIR$/libraries/p5/p5.dom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/libraries/p5.dom.min.js" afterPath="$PROJECT_DIR$/libraries/p5/p5.dom.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/libraries/p5.js" afterPath="$PROJECT_DIR$/libraries/p5/p5.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/libraries/p5.min.js" afterPath="$PROJECT_DIR$/libraries/p5/p5.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/libraries/p5.serialport.js" afterPath="$PROJECT_DIR$/libraries/p5/p5.serialport.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/libraries/p5.sound.js" afterPath="$PROJECT_DIR$/libraries/p5/p5.sound.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/libraries/p5.sound.min.js" afterPath="$PROJECT_DIR$/libraries/p5/p5.sound.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/libraries/serialport.js" afterPath="$PROJECT_DIR$/libraries/p5/serialport.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Working-with-data-load-from-url-json/index.html" afterPath="$PROJECT_DIR$/Working-with-data-load-from-url-json/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Working-with-data-load-from-url-json/sketch.js" afterPath="$PROJECT_DIR$/Working-with-data-load-from-url-json/sketch.js" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +38,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>map</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -41,6 +60,10 @@
         <option value="$PROJECT_DIR$/Working-with-data-load-from-url-json/sketch.js" />
         <option value="$PROJECT_DIR$/Working-with-data-load-from-url-with-API-KEY-json/index.html" />
         <option value="$PROJECT_DIR$/Working-with-data-load-from-url-with-API-KEY-json/sketch.js" />
+        <option value="$PROJECT_DIR$/Working-with-data-animation-&amp;json/sketch.js" />
+        <option value="$PROJECT_DIR$/P5-Working-with-data-local-json/sketch.js" />
+        <option value="$PROJECT_DIR$/P5-random-walker/sketch.js" />
+        <option value="$PROJECT_DIR$/P5-Try-function-map/sketch.js" />
       </list>
     </option>
   </component>
@@ -107,20 +130,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javascript-Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javascript-Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Working-with-data-load-from-url-with-API-KEY-json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -136,12 +145,14 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\GIT\Javascript-Projects\Working-with-data-local-json" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Surreallistic\Desktop\GIT\Javascript-Projects\data\json-files" />
+      <recent name="C:\Users\Surreallistic\Desktop\GIT\Javascript-Projects\libraries\p5" />
       <recent name="C:\Users\Surreallistic\Desktop\GIT\Javascript-Projects" />
       <recent name="C:\Users\Surreallistic\Desktop\GIT\Javascript-Projects\Working-with-data-JSON-API" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\GIT\Javascript-Projects\Working-with-data-local-json" />
     </key>
   </component>
   <component name="RunManager">
@@ -636,12 +647,13 @@
       <workItem from="1486672732754" duration="1215000" />
       <workItem from="1486719805599" duration="8618000" />
       <workItem from="1486799309005" duration="6188000" />
-      <workItem from="1486818449487" duration="3059000" />
+      <workItem from="1486818449487" duration="4051000" />
+      <workItem from="1486836003827" duration="6839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19080000" />
+    <option name="totallyTimeSpent" value="26911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
@@ -653,7 +665,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -663,6 +675,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -674,7 +687,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,6 +710,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Working-with-data-animation-&amp;json/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Working-with-data-animation-&amp;json/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Working-with-data-load-from-url-with-API-KEY-json/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -728,14 +756,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/flower.json">
+    <entry file="file://$PROJECT_DIR$/data/json-files/flower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/birds.json">
+    <entry file="file://$PROJECT_DIR$/data/json-files/birds.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
@@ -765,14 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/p5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="13247" column="0" lean-forward="false" selection-start-line="13247" selection-start-column="0" selection-end-line="13247" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Working-with-data-load-from-url-with-API-KEY-json/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -785,6 +805,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Working-with-data-animation-&amp;json/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Working-with-data-animation-&amp;json/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P5-Working-with-data-load-from-url-with-API-KEY-json/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P5-Working-with-data-load-from-url-with-API-KEY-json/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="54" lean-forward="false" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P5-Working-with-data-local-json/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/p5/p5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="26974" column="33" lean-forward="false" selection-start-line="26974" selection-start-column="33" selection-end-line="26974" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P5-random-walker/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P5-random-walker/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P5-Try-function-map/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
