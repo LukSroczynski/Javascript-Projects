@@ -1,3 +1,5 @@
+"use strict";
+
 let data;
 let x = 0;
 let spaceData;

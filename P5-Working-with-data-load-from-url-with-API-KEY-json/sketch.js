@@ -1,7 +1,9 @@
+"use strict";
+
 let weather, input;
-let api_path = "http://api.openweathermap.org/data/2.5/weather?&q=";
-let api_key = "&appid=73729444cfc122acacdc30e19e7b202d";
-let units = "&units=metric";
+const api_path = "http://api.openweathermap.org/data/2.5/weather?&q=";
+const api_key = "&appid=73729444cfc122acacdc30e19e7b202d";
+const units = "&units=metric";
 
 function setup() {
   createCanvas(500, 500);

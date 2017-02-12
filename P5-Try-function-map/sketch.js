@@ -1,3 +1,5 @@
+"use strict";
+
 let r = 0;
 let g = 0;
 let b = 0;

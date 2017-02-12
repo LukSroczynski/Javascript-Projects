@@ -1,16 +1,25 @@
-let x = 0;
-let url = "http://api.open-notify.org/iss-now.json";
-let iss_x, iss_y;
+"use strict";
+
+const url = "http://api.open-notify.org/iss-now.json";
+let x=0, iss_x=0, iss_y=0;
 
 function setup() {
   // createCanvas(window.innerWidth, window.innerHeight);
     createCanvas(500, 500);
     loadJSON(url, gotData, "jsonp");
+    setInterval(doISS, 2000);
+}
+
+function doISS() {
+    loadJSON(url, gotData, "jsonp");
 }
 
 function gotData(data) {
-    iss_x = data.iss_position.longitude;
-    iss_y = data.iss_position.latitude;
+    let long = data.iss_position.longitude;
+    let lat = data.iss_position.latitude;
+
+    iss_x = map(lat, -180, 180, 0, width);
+    iss_y = map(long, -180, 180, 0, width);
 }
 
 function draw() {
