@@ -1,30 +1,27 @@
 "use strict";
 
-// const full_path = "http://api.wordnik.com:80/v4/word.json/rain/relatedWords?useCanonical=false&limitPerRelationshipType=10&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5";
+const full_path = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=a71f390f65fc4098a3951f033e50f3ed&q=home";
 // let url = api + word + api_options + api_key;
-const api = "http://api.wordnik.com/v4/word.json/";
-const api_options= "/relatedWords?useCanonical=false&limitPerRelationshipType=10";
-const api_key = "&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5";
 
-let word = "rainbow";
-let link;
+const api = "https://api.nytimes.com/svc/search/v2/articlesearch.json?";
+let api_options= "home";
+const api_key = "api-key=a71f390f65fc4098a3951f033e50f3ed&q=";
+
+let url = api + api_key + api_options;
 
 function setup() {
     noCanvas();
-    link = createA("#", word);
-    link.mousePressed(getWordnik);
-}
-
-function getWordnik() {
-    loadJSON(api + word + api_options + api_key, gotData);
+    loadJSON(full_path, gotData);
 }
 
 function gotData(data) {
-    let index1 = floor(random(0, data.length));
-    let index2 = floor(random(0, data[index1].words.length));
 
-    word = data[index1].words[index2];
-    link.html(word);
+    let articles = data.response.docs;
+
+    for(let i = 0; i < articles.length; i++) {
+        createP(articles[i].snippet);
+        createElement("h1", articles[i].headline.main);
+    }
 }
 
 function draw() {
