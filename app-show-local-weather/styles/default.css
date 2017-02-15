@@ -2,6 +2,7 @@ body {
     width: auto;
     height: auto;
     background-image: url("../img/clouds.jpeg");
+    background-size: cover;
 }
 
 div.hexagon-text {
