@@ -1,0 +1,80 @@
+.hexagon {
+    position: relative;
+    width: 400px;
+    height: 230.94px;
+    margin: 115.47px 0;
+    background-image: url("../img/sun.jpg");
+    background-size: auto 452.6426px;
+    background-position: center;
+    box-shadow: 0 0 70px rgba(0,0,0,1);
+    border-left: solid 4px #333333;
+    border-right: solid 4px #333333;
+    opacity: 0.2;
+    margin: 20% 35% 20% 35%;
+}
+
+.hexTop,
+.hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 282.84px;
+    height: 282.84px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 54.58px;
+    box-shadow: 0 0 70px rgba(0,0,0,1);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 392.0000px;
+    height: 226.32130552233332px;
+    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-113.1607px);
+    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-113.1607px);
+    transform:          rotate(45deg) scaleY(1.7321) translateY(-113.1607px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+}
+
+.hexTop {
+    top: -141.4214px;
+    border-top: solid 5.6569px #333333;
+    border-right: solid 5.6569px #333333;
+}
+
+.hexTop:after {
+    background-position: center top;
+}
+
+.hexBottom {
+    bottom: -141.4214px;
+    border-bottom: solid 5.6569px #333333;
+    border-left: solid 5.6569px #333333;
+}
+
+.hexBottom:after {
+    background-position: center bottom;
+}
+
+.hexagon:after {
+    content: "";
+    position: absolute;
+    top: 2.3094px;
+    left: 0;
+    width: 392.0000px;
+    height: 226.3213px;
+    z-index: 2;
+    background: inherit;
+}
+.hexagon:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

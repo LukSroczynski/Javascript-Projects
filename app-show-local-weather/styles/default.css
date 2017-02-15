@@ -1,0 +1,46 @@
+body {
+    width: auto;
+    height: auto;
+    background-image: url("../img/clouds.jpeg");
+}
+
+div.hexagon-text {
+    font-weight: bold;
+    z-index: 100;
+    color: #000000;
+    position: absolute;
+    opacity: 1;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    text-align: center;
+}
+
+#hexagon-text-title {
+    font-size: 30px;
+    top: 0px;
+    left: 0;
+    left: 10%;
+    right: 10%;
+}
+
+#hexagon-text-city {
+    font-size: 30px;
+    top: 90px;
+    left: 0;
+    left: 10%;
+    right: 10%;
+}
+
+#hexagon-text-degress {
+    font-size: 30px;
+    top: 140px;
+    left: 0;
+    left: 10%;
+    right: 10%;
+}
+
+#hexagon-text-author {
+    font-size:15px;
+    top: 250px;
+    left: 22%;
+    right: 22%;
+}
