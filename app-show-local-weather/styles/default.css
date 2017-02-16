@@ -1,8 +1,8 @@
 body {
     width: auto;
     height: auto;
-    background-image: url("../img/clouds.jpeg");
-    background-size: cover;
+    background-image: url("../img/mainPageClouds.jpeg");
+    /*background-size: cover;*/
 }
 
 div.hexagon-text {
@@ -42,6 +42,13 @@ div.hexagon-text {
 #hexagon-text-author {
     font-size:15px;
     top: 250px;
+    left: 22%;
+    right: 22%;
+}
+
+#hexagon-text-icon {
+    top: 180px;
+
     left: 22%;
     right: 22%;
 }
