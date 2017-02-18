@@ -1,7 +1,7 @@
 body {
     width: auto;
     height: auto;
-    background-color: #0f0f0f;
+    background: #47000e;
     /*background-size: cover;*/
 }
 
@@ -10,25 +10,35 @@ body {
     width: 30%;
     text-align: center;
     display:inline;
+    width: 40%;
+    margin: 100px;
+}
+
+.div-radius {
+    background-color: #053b46;
+    height: 70px;
+    margin-bottom: 60px;
+    color: white;
+    /*position: relative;*/
 }
 
 .header-bottom {
-    position: absolute;
+    position: relative;
     left: 30%;
     right: 30%;
-    /*bottom: 5%;*/
+    width: 40%;
 }
 .blue-rectangle {
     height: 100px;
     background-color: rgba(3, 78, 136, 0.7);
     padding: 10px 20px 10px 40px;
-    margin-bottom: 20px;
-    position: relative;
+    margin-bottom: 230px;
+    /*position: relative;*/
 }
-.blue-rectangle p {
+.div-radius p {
     color: white;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 218px;
     position: relative;
 }
 

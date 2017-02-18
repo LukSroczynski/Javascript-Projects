@@ -4,6 +4,10 @@
  */
 
 let searchText;
+let paragraphStart = "<li>";
+let paragraphEnd = "</li>";
+let divStart = "<div class=\"div-radius\"> <ul style=\"list-style-type:none\">";
+let divEnd = "</ul></div>";
 
 $( document ).ready(function() {
 
@@ -29,6 +33,14 @@ function setSearchText() {
 }
 
 function populateSearchResult() {
-    // $(".conteiner").append("<div class=" + "div-radius" + ">hello world</div>");
-    $(".conteiner").append("<div class=\"div-radius\">hello world</div>");
+
+    for(let i = 0; i < 10; i++) {
+        $(".conteiner").append(
+            divStart +
+            paragraphStart + "Title" + paragraphEnd +
+            paragraphStart + "content" + paragraphEnd +
+            divEnd
+        );
+    }
+
 }
