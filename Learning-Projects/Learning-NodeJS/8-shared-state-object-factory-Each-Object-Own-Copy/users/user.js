@@ -1,6 +1,9 @@
 let books = require("../books");
 
-books.favBook = "The War of Art";
 
-console.log("user1 : " + books.favBook);
+let user2_books = books();
 
+// user2_books.favMovie = "The Matrix";
+
+
+console.log("user1 : " + user2_books.favMovie);
