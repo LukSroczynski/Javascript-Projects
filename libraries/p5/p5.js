@@ -21379,7 +21379,7 @@ p5.PrintWriter = function(filename, extension) {
     // convert String to Array for the writeFile Blob
     var arr = [];
     arr.push(this.content);
-    p5.prototype.writeFile(arr, filename, extension);
+    p5.prototype.writeFile(arr, filename);
     // remove from _pWriters array and delete self
     for (var i in p5.prototype._pWriters) {
       if (p5.prototype._pWriters[i].name === this.name) {
@@ -21767,10 +21767,9 @@ p5.prototype.saveTable = function(table, filename, options) {
  *
  *  @param  {Array} dataToDownload
  *  @param  {String} filename
- *  @param  {[String]} extension
  *  @private
  */
-p5.prototype.writeFile = function(dataToDownload, filename, extension) {
+p5.prototype.writeFile = function (dataToDownload: String, filename: String) {
   var type = 'application\/octet-stream';
   if (p5.prototype._isSafari() ) {
     type = 'text\/plain';

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+
+    <% include templates/header.ejs%>
+
+    <h1>About Page</h1>
+    <p>Hi. My name is Lukas.</p><br>
+    
+    <h1> FOR-LOOP: <%= videoData.categoryName %> </h1>
+
+    <% for(let i = 0; i < videoData.categories.length; i++) { %>
+    <h3> <%= videoData.categories[i].categoryName %></h3>
+    <p> &nbsp <%= videoData.categories[i].categoryDescription %></p>
+    <% }%>
+
+    <h1> FOR-EACH-LOOP: <%= videoData.categoryName %> </h1>
+
+    <% videoData.categories.forEach(function (item) { %>
+    <h3> <%= item.categoryName %></h3>
+    <p> &nbsp <%= item.categoryDescription %></p>
+    <% }); %>
+
+</body>
+</html>
