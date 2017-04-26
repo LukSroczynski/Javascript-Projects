@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" /> 
+<body>
+
+<div id="zadanie1">
+
+	<div id="squareField"><b>Pole Prostokąta</b>: </div> <br> 
+	<div id="squarePerimeter"><b>Obwód Prostokąta</b>: </div> <br> 
+	<div id="error"><b>Status</b>: Wprowadź dane</div> <br>
+
+	<form name="myForm" id="formMy">
+	   <input type="text" name="bok1" id="bok1" class="input-default" pattern = "[0-9]" required placeholder="BOK 1"> <br> <br>
+	   <input type="text" name="bok2" id="bok2" class="input-default" pattern = "[0-9]" required placeholder="BOK 2"> <br> <br>
+	</form>
+
+	<button onclick="getCalculation()" id="sqrtField" class="btn-default" >Oblicz</button> <br> <br>
+
+</div>
+
+<div id="zadanie2">
+
+	<div id="listField"><b>Lista zawiera: </b>: </div> <br> 
+	<div id="sum"><b>Suma wynosi: </b>: </div> <br> 
+	<div id="listError"><b>Status</b>: Wprowadź dane</div> <br>
+
+	<form name="forr" id="anotherform">
+	   <input type="text" name="listFrom" id="listFrom" class="input-default" pattern = "[0-9]" required placeholder="liczba 1"> <br> <br>
+	   <input type="text" name="listTo" id="listTo" class="input-default" pattern = "[0-9]" required placeholder="liczba 2"> <br> <br>
+	</form>
+
+	<button onclick="getListCalculation()" id="sqrtFieldList" class="btn-default" >Oblicz</button> <br> <br>
+
+</div>
+
+<script>
+
+function getCalculation() {
+
+	let bok1Value = document.getElementById("bok1").value;
+	let bok2Value = document.getElementById("bok2").value;
+
+	let squareField = document.getElementById('squareField');
+	let squarePerimeter = document.getElementById('squarePerimeter');
+	let error = document.getElementById('error');
+
+	error.innerHTML = "<b>Status</b>: Wprowadzono dane";
+
+	if (isNaN(bok1Value) || isNaN(bok2Value) || bok1Value < 1 || bok2Value < 1) {
+		error.innerHTML = "<b>Status</b>: Wprowadź ponownie poprawne dane";
+		squareField.innerHTML = "<b> Pole Prostokąta </b>: ";
+		squarePerimeter.innerHTML = "<b> Obwód Prostokąta </b>: ";
+
+    } else {
+    	squareField.innerHTML = "<b> Pole Prostokąta </b>: " + (bok1Value * bok2Value);
+    	squarePerimeter.innerHTML = "<b> Obwód Prostokąta </b>: " + (2 * bok1Value + 2 * bok2Value);
+    }
+
+}
+
+function getListCalculation() {
+
+	let listFrom = document.getElementById("listFrom").value;
+	let listTo = document.getElementById("listTo").value;
+
+	let listField = document.getElementById('listField');
+    let listError = document.getElementById('listError');
+    let listSum = document.getElementById('sum');
+
+    let listDisplay = 0;
+    let sum = 0;
+
+	if (isNaN(listFrom) || isNaN(listTo)) {
+		listError.innerHTML = "<b>Status</b>: Wprowadź ponownie poprawne dane";
+	} else {
+
+		let from = Number(listFrom);	
+		let to = Number(listTo);
+
+		if(from < to) {
+			for(let i = from; i < to-1; i++) {
+				sum += i + 1;
+				listDisplay += i + 1;
+				listDisplay += " ";
+			}
+		} else {
+			for(let i = to; i < from-1; i++) {
+				sum += i + 1;
+				listDisplay += i + 1;
+				listDisplay += "  ";
+			}
+		} 
+}
+	
+	listField.innerHTML = "<b>Lista zawiera: </b>" + listDisplay;
+	listSum.innerHTML = "<b>Suma wynosi: </b>: " + sum;
+}
+
+
+
+</script>
+
+
+
+<!-- 
+Wszystko co poniżej możesz usunąć to jest CSS, wygląd przycisków etc.
+-->
+
+<style type="text/css">
+	.btn-default {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-default:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.btn-default:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.input-default {
+	width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+</style>
+
+</body>
+</html>
